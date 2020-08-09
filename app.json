@@ -1,5 +1,5 @@
 {
-  "name": "Telegram Torrent Leecher ____ACHIYA____",
+  "name": "Telegram Torrent Leecher [R] ____ACHIYA____",
   "description": "A Telegram Torrent (and youtube-dl) Leecher based on Pyrogram. Powered by @atvreqs",
   "keywords": [
     "telegram"
@@ -30,7 +30,7 @@
     },
     "OWNER_ID": {
       "description": "should be an integer. ID of owner of bot",
-      "value": "510597269"
+      "value": ""
     },
     "UPLOAD_AS_DOC": {
       "description": "True/False. If true all files will be uploaded as documents. Default is False.",
@@ -87,7 +87,7 @@
       "description": "Enter your custom ytdl command like ytdl1@urgroupname and so on. Default is /ytdl.",
       "required": false
     },
-    "PYTDL_COMMAND": {
+    "PYTDL_COMMAND_G": {
       "description": "Enter your custom pytdl command like pytdl1@urgroupname and so on. Default is /pytdl.",
       "required": false
     },
@@ -104,7 +104,7 @@
       "required": false
     },
     "DESTINATION_FOLDER": {
-      "description": "Enter your Destination folder in which you want to upload yoyr file.",
+      "description": "Enter your Cloud folder NAME(not ID😅) in which you want to upload/store your files.",
       "required": false
     },
     "CUSTOM_FILE_NAME": {
@@ -113,3 +113,4 @@
     }
   },
   "stack": "container"
+}
